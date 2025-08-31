@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Main {
    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -15,11 +14,11 @@ public class Main {
         // bst.inorder(bst.getRoot());
         // System.out.println();
         // bst.postorder(bst.getRoot());
-        TreeAVL avl = new TreeAVL();
-        for(int i=0;i<100;i++){
-            avl.AVLinsert(i);
-        }
-        System.out.println(avl.height(avl.getRoot()));
+        // 
+        int[]arr={2,56,5,1,5,-4,6,8};
+        segment_tree tree= new segment_tree(arr);
+        tree.Display();
+        System.out.println(tree.query(1, 5));
         
     }
 }
