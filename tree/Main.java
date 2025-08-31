@@ -20,5 +20,6 @@ public class Main {
             avl.AVLinsert(i);
         }
         System.out.println(avl.height(avl.getRoot()));
+        System.out.println();
     }
 }
