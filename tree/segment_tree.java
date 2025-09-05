@@ -1,7 +1,7 @@
 
 
 public class segment_tree {
-    private static class Node{
+    public  static class Node{
         int data;
         int startInterval;
         int endInterval;
