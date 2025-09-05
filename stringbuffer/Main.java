@@ -28,6 +28,7 @@ public class Main {
         String sent ="fmvrk rfkcmr k ef";
         System.out.println(sent);
         System.out.println(sent.replaceAll("\\s", ""));
+        System.out.println("");
        
          
     }
